@@ -1,0 +1,16 @@
+{
+  "name": "hypersaz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpx tailwindcss -i ./src/input.css -o ./dist/assets/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10",
+    "vazirmatn": "^33.0.3"
+  }
+}
