@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    font-family: Vazirmatn, sans-serif;
+    font-family: "Vazirmatn FD NL", sans-serif;
   }
   body {
     @apply bg-slate-100;
@@ -12,6 +12,10 @@
 }
 
 @layer components {
+  .custom-container {
+    width: calc(100% - 40px);
+    @apply mx-auto max-w-[1600px];
+  }
   .btn {
     @apply py-2 px-4 border rounded-lg text-sm font-light;
   }
